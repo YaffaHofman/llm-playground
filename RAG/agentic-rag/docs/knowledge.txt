@@ -1,0 +1,5 @@
+RAG stands for Retrieval Augmented Generation.
+
+LangGraph is a framework for building AI agents.
+
+OpenAI develops large language models.
