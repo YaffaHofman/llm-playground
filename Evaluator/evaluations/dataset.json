@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": "course_policy",
+    "question": "מתי המועד האחרון להגשת תרגיל?",
+    "expected_answer": "יום רביעי בשעה 23:59",
+    "notes": "שאלה בסיסית על נוהל הגשה"
+  },
+  {
+    "id": 2,
+    "category": "course_policy",
+    "question": "מה קורה אם אגיש תרגיל יום לאחר המועד האחרון?",
+    "expected_answer": "איחור של עד 48 שעות גורר הורדה של 10 נקודות",
+    "notes": "מקרה קצה - איחור קצר"
+  },
+  {
+    "id": 3,
+    "category": "course_policy",
+    "question": "הגשתי תרגיל 3 ימים באיחור, מה קורה?",
+    "expected_answer": "איחור מעבר ל-48 שעות דורש אישור מרצה",
+    "notes": "מקרה קצה - איחור ארוך"
+  },
+  {
+    "id": 4,
+    "category": "course_policy",
+    "question": "כמה מפגשים מותר להחסיר?",
+    "expected_answer": "מותר להחסיר עד 20% מהמפגשים (נוכחות חובה 80%)",
+    "notes": "שאלה על נוכחות"
+  },
+  {
+    "id": 5,
+    "category": "course_policy",
+    "question": "החסרתי 25% מהשיעורים, מה עלי לעשות?",
+    "expected_answer": "יש להשלים משימת השלמה",
+    "notes": "מקרה קצה - חריגה מנוכחות"
+  },
+  {
+    "id": 6,
+    "category": "faq",
+    "question": "האם מותר להשתמש ב-ChatGPT לתרגילים?",
+    "expected_answer": "כן, מותר, בתנאי שמצרפים הסבר קצר על מה הכלי עזר לעשות",
+    "notes": "שאלה נפוצה על שימוש ב-AI"
+  },
+  {
+    "id": 7,
+    "category": "faq",
+    "question": "האם אפשר להגיש תרגיל בזוג?",
+    "expected_answer": "רק אם הדבר צוין במפורש בתרגיל",
+    "notes": "שאלה על הגשה בזוגות"
+  },
+  {
+    "id": 8,
+    "category": "schedule",
+    "question": "מה לומדים בשבוע הרביעי?",
+    "expected_answer": "RAG בסיסי",
+    "notes": "שאלה על לוח זמנים"
+  },
+  {
+    "id": 9,
+    "category": "schedule",
+    "question": "באיזה שבוע מתחילים ללמוד על Agents?",
+    "expected_answer": "שבוע 5",
+    "notes": "שאלה על לוח זמנים"
+  },
+  {
+    "id": 10,
+    "category": "edge_case",
+    "question": "האם אפשר להגיש תרגיל ב-ChatGPT בלי להסביר כלום?",
+    "expected_answer": "לא, חובה לצרף הסבר קצר על מה הכלי עזר לעשות",
+    "notes": "מקרה קצה - שימוש ב-AI ללא הסבר"
+  },
+  {
+    "id": 11,
+    "category": "edge_case",
+    "question": "הגשתי בדיוק 48 שעות באיחור, האם אצטרך אישור מרצה?",
+    "expected_answer": "לא, 48 שעות בדיוק נחשב לאיחור קצר ויגרור הורדה של 10 נקודות בלבד",
+    "notes": "מקרה גבולי - בדיוק 48 שעות"
+  },
+  {
+    "id": 12,
+    "category": "edge_case",
+    "question": "מה נושא הפרויקט המסכם?",
+    "expected_answer": "המידע אינו זמין במסמכים, ידוע רק שהוא מתקיים בשבוע 6",
+    "notes": "מקרה קצה - שאלה שאין לה תשובה במסמכים"
+  },
+  {
+    "id": 13,
+    "category": "edge_case",
+    "question": "אני חולה ולא יכול להגיש בזמן, מה אני עושה?",
+    "expected_answer": "אם האיחור יעבור 48 שעות יש לפנות לאישור המרצה",
+    "notes": "מקרה קצה - נסיבות חריגות"
+  },
+  {
+    "id": 14,
+    "category": "edge_case",
+    "question": "האם Prompt Engineering נלמד לפני או אחרי Function Calling?",
+    "expected_answer": "לפני — Prompt Engineering בשבוע 2, Function Calling בשבוע 3",
+    "notes": "שאלת השוואה על לוח הזמנים"
+  },
+  {
+    "id": 15,
+    "category": "edge_case",
+    "question": "מה קורה אם החסרתי בדיוק 20% מהמפגשים?",
+    "expected_answer": "20% הוא הגבול המותר, אין צורך במשימת השלמה",
+    "notes": "מקרה גבולי - בדיוק 20% היעדרות"
+  }
+]
